@@ -1,9 +1,8 @@
 [tool.poetry]
-name = "topic-car-classification"
+name = "topic_car_classification"
 version = "0.1.0"
 description = ""
 authors = ["anatoly <t.vlasov23@mail.ru>"]
-readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -14,7 +13,8 @@ black = "^24.4.2"
 pydantic = "^2.7.1"
 omegaconf = "^2.3.0"
 
+[tool.poetry.dev-dependencies]
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
